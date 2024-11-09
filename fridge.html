@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Interactive Refrigerator</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+
+<body>
+    <!-- <audio id="myAudio" controls>
+        <source src="ssj3.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio> -->
+    <button id="btn1" onclick="onOff()">On/Off</button>
+    <div id="clock"></div>
+    <h2>This is Your Refrigerator</h2>
+    <h4>To exit a task please reclick the most recently selected button</h4>
+    <div id="buttons">
+        <button id="btn2" onclick="shelf()">Shelf View</button>
+        <button id="btn3" onclick="temp()">Temperature</button>
+        <button id="btn4" onclick="google()">Google</button>
+        <button id="btn5" onclick="youtube()">Youtube</button>
+        <button id="btn6" onclick="settings()">Settings</button>
+        <button id="btn7" onclick="timer()">Timer</button>
+        <button id="btn8" onclick="toggleFormat()">Clock</button>
+        <button id="btn9" onclick="shoppingList()">Shopping List</button>
+        <button id="btn10" onclick="tempDisplay()">Temp Changer</button>
+        <button id="btn11" onclick="tvScreen()">TV Screen</button>
+        <button id="btn12" onclick="musicPlayer()">Music Player</button>
+    </div>
+    <div id="refrid">
+        <div id="shoppingList" style="display: none;">
+            <h1>Shopping List</h1>
+            <h4>Remove items by clicking them!</h4>
+            <h5>not the first 3</h5>
+            <ul>
+                <li>Apples</li>
+                <li>Oranges</li>
+                <li>Eggs</li>
+                <li>Bread</li>
+                <li>Olive Oil</li>
+            </ul>
+        </div>
+        <div id="tempR" style="display: none;">
+            <div id="displayNum">35</div>
+            
+            <div id="errorMessage" style="color: red;"></div>
+
+            <button onclick="raise()">Raise Temp</button>
+            <button onclick="lower()">Lower Temp</button>
+            <button onclick="toggleUnit()">Toggle Unit (°F/°C)</button>
+        </div>
+    </div>
+    
+
+    <script src="script.js"></script>
+    <footer><small>&#169; A. Decina 10/12/24</small></footer>
+</body>
+
+</html>
