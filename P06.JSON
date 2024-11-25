@@ -1,0 +1,143 @@
+{
+    "ParkingLots": [
+        {
+            "Lot Name": "Foy",
+            "Total Spaces": 100,
+            "Map File": "foy.jpg",
+            "Hours of Operation": "6:00AM - 5:00PM",
+            "Location": "North End Campus",
+            "Lot Type": "Staff/Faculty",
+            "Spaces": [
+                {
+                    "Space ID": 1,
+                    "type": "Staff/Faculty",
+                    "status": "Available",
+                    "Filled Date and Time": null,
+                    "Reserved Date and Time": null
+                },
+                {
+                    "Space ID": 2,
+                    "type": "Staff/Faculty",
+                    "status": "Filled",
+                    "Filled Date and Time": "11-24-24, 08:03AM",
+                    "Reserved Date and Time": null
+                },
+                {
+                    "Space ID": 3,
+                    "type": "Staff/Faculty",
+                    "status": "Available",
+                    "Filled Date and Time": null,
+                    "Reserved Date and Time": null
+                },
+                {
+                    "Space ID": 4,
+                    "type": "Staff/Faculty",
+                    "status": "Reserved",
+                    "Filled Date and Time": null,
+                    "Reserved Date and Time": "11-24-24, 10:24AM"
+                },
+                {
+                    "Space ID": 5,
+                    "type": "Staff/Faculty",
+                    "status": "Available",
+                    "Filled Date and Time": null,
+                    "Reserved Date and Time": null
+                },
+                {
+                    "Space ID": 6,
+                    "type": "Staff/Faculty",
+                    "status": "Reserved",
+                    "Filled Date and Time": null,
+                    "Reserved Date and Time": "11-24-24, 03:00PM"
+                },
+                {
+                    "Space ID": 7,
+                    "type": "Staff/Faculty",
+                    "status": "Filled",
+                    "Filled Date and Time": "11-24-24, 12:00PM",
+                    "Reserved Date and Time": null
+                },
+                {
+                    "Space ID": 8,
+                    "type": "Staff/Faculty",
+                    "status": "Filled",
+                    "Filled Date and Time": "11-24-24, 02:48PM",
+                    "Reserved Date and Time": null
+                },
+                {
+                    "Space ID": 9,
+                    "type": "Staff/Faculty",
+                    "status": "Available",
+                    "Filled Date and Time": null,
+                    "Reserved Date and Time": null
+                },
+                {
+                    "Space ID": 10,
+                    "type": "Staff/Faculty",
+                    "status": "Available",
+                    "Filled Date and Time": null,
+                    "Reserved Date and Time": null
+                },
+                {
+                    "Space ID": 11,
+                    "type": "Staff/Faculty",
+                    "status": "Reserved",
+                    "Filled Date and Time": null,
+                    "Reserved Date and Time": "11-24-24, 11:11AM"
+                },
+                {
+                    "Space ID": 12,
+                    "type": "Staff/Faculty",
+                    "status": "Reserved",
+                    "Filled Date and Time": null,
+                    "Reserved Date and Time": "11-24-24, 04:13PM"
+                }
+            ]
+        },
+        {
+            "Lot Name": "Fonatine",
+            "Total Spaces": 80,
+            "Map File": "Fonatine.jpg",
+            "Hours of Operation": "(f/s)6:00 AM - 5:00 PM",
+            "location": "North End Campus",
+            "Lot Type": "All",
+            "spaces": []
+        },
+        {
+            "Lot Name": "RiverView",
+            "Total Spaces": 60,
+            "Map File": "RiverView.jpg",
+            "Hours of Operation": "24 Hour Parking",
+            "location": "RiverSide",
+            "Lot Type": "All",
+            "spaces": []
+        },
+        {
+            "Lot Name": "McCann",
+            "Total Spaces": 150,
+            "Map File": "McCann.jpg",
+            "Hours of Operation": "24 Hour Parking",
+            "location": "Main Campus Entrence",
+            "Lot Type": "All",
+            "spaces": []
+        },
+        {
+            "Lot Name": "Donnelly",
+            "Total Spaces": 40,
+            "Map File": "Donnelly.jpg",
+            "Hours of Operation": "(f/s)6:00 AM - 5:00 PM",
+            "location": "South Campus",
+            "Lot Type": "Staff/Faculty",
+            "spaces": []
+        },
+        {
+            "Lot Name": "Hoop",
+            "Total Spaces": 30,
+            "Map File": "Hoop.jpg",
+            "Hours of Operation": "24 Hour Parking",
+            "location": "North End Campus",
+            "Lot Type": "Resident",
+            "spaces": []
+        }
+    ]
+}
