@@ -1,0 +1,121 @@
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+h2 {
+    color: #9e1b32;
+    text-align: center;
+}
+
+
+.space-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+.space-box {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.space-id {
+    font-weight: bold;
+}
+
+
+.status {
+    font-size: 1.1em;
+}
+
+.available {
+    color: green;
+}
+
+.filled {
+    color: red;
+}
+
+.reserved {
+    color: orange;
+}
+
+nav {
+    background-color: #9e1b32;
+    padding: 10px 0;
+    margin-bottom: 15px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #f5f5f5;
+    color: #9e1b32;
+}
+
+.header {
+    text-align: center; 
+    padding: 20px 0; 
+}
+
+.header h1 {
+    margin: 0; 
+    color: #9e1b32; 
+}
+
+
+.logo {
+    display: inline-block; 
+    width: 80px; 
+    height: auto; 
+    margin-top: 10px; 
+    border-radius: 5px; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+.logo:hover {
+    transform: scale(1.1); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #9e1b32;
+    color: white;
+    margin-top: 30px;
+}
